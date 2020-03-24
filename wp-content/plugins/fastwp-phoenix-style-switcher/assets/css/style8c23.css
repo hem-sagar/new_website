@@ -1,0 +1,191 @@
+/*
+*	This package is part of Wisten theme.
+*	Is available with all themes for compatibility
+*/
+
+
+
+/* ==============================
+   Demo only
+   ============================== */
+
+.ss-panel{
+	width: 270px;
+	position: fixed;
+	top: 20%;
+	left: -270px;
+	padding: 20px;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	background: #fefefe;
+	z-index: 9999;
+	
+	-webkit-box-shadow: 0 0 1px rgba(21,21,21, .5);
+	-moz-box-shadow: 0 0 1px rgba(21,21,21, .5);
+	box-shadow: 0 0 1px rgba(21,21,21, .5);
+	
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+
+.ss-panel .form,
+.ss-panel .form:hover { border:none; background:transparent; }
+
+.ss-button{
+	width: 35px;
+	height: 35px;
+	position: fixed;
+	top: 40%;
+	left: 0;
+	background-color: rgba(0,0,0, .75);
+	color: #aaa;
+	font-size: 16px;
+	line-height: 35px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 9999;
+	
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	
+	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.ss-button:hover{
+	color: #fff;
+	background-color: #000;
+}
+
+.ss-close{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 16px;
+	color: #bbb;
+	cursor: pointer;
+	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.ss-close:hover{
+	color: #212121;
+}
+.ss-title{
+	display: block;
+	margin-bottom: 10px;
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #333;
+}
+.ss-group{
+	margin: 20px 0;
+}
+.ss-color{
+	position: relative;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	background: #ccc;
+	overflow: hidden;
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	-webkit-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);  
+    -moz-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    -o-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+    -ms-transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000); 
+    transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
+}
+.ss-color:hover{
+	-webkit-box-shadow: 0 0 30px rgba(255,255,255, .4) inset;
+	-moz-box-shadow: 0 0 30px rgba(255,255,255, .4) inset;
+	box-shadow: 0 0 30px rgba(255,255,255, .4) inset;
+}
+.ss-color:after{
+	content: " ";
+	display: block;
+	width: 50%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	-webkit-border-top-right-radius: 3px;
+	-webkit-border-bottom-right-radius: 3px;
+	-moz-border-radius-topright: 3px;
+	-moz-border-radius-bottomright: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+}
+.ssc1{
+	background: #e54028;
+}
+.ssc2{
+	background: #297ad3;
+}
+.ssc3{
+	background: #1abdcc;
+}
+.ssc4{
+	background: #50b459; 
+}
+.ssc5{
+	background: #eabb00;
+}
+.ssc6{
+	background: #ab5c2c;
+}
+.ssc7{
+	background: #8f52c8;
+}
+.ssc8{
+	background: #575757;
+}
+.ssc9{
+	background: #eabb00;
+}
+.ssc9:after{
+	background: #1560b2;
+}
+.ssc10{
+	background: #0cb0c8;
+}
+.ssc10:after{
+	background: #1560b2;
+}
+.ssc11{
+	background: #28ae61;
+}
+.ssc11:after{
+	background: #9c654a;
+}
+.ssc12{
+	background: #d12e1d;
+}
+.ssc12:after{
+	background: #df6a3b;
+}
+
+@media only screen and (max-width: 480px) {
+	.ss-button,
+	.ss-panel{
+		display: none;
+	}
+}
